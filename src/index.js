@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import Imagen from './components/Imagen';
+import SumarNumeros from './components/SumarNumeros';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Imagen />
+    <SumarNumeros/>
   </React.StrictMode>
 );
 
